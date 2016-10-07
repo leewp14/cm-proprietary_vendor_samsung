@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
 LOCAL_PATH := vendor/samsung/galaxys2-common
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/sbin/cbd:root/sbin/cbd
+    $(LOCAL_PATH)/proprietary/system/bin/cbd:system/bin/cbd
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/bcm4330B1.hcd:system/bin/bcm4330B1.hcd \
