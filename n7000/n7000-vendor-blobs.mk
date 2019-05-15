@@ -17,8 +17,7 @@ LOCAL_PATH := vendor/samsung/n7000
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/vendor/lib/libakm.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/vendor/lib/libsecril-client.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/vendor/lib/hw/gps.exynos4.vendor.so
+    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/vendor/lib/libsecril-client.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
