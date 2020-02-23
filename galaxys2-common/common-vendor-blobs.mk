@@ -19,6 +19,9 @@ PRODUCT_PACKAGES += \
 LOCAL_PATH := vendor/samsung/galaxys2-common
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/system/lib/modules/Si4709_driver.ko:system/lib/modules/Si4709_driver.ko
+
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/cbd:system/bin/cbd
 
 PRODUCT_COPY_FILES += \
